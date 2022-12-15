@@ -1,0 +1,40 @@
+.features {
+    padding-bottom: 0;
+  }
+  .main-features {
+    display: flex;
+  }
+  .main-features li {
+    width: 270px;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--dark-grey-color);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  .main-features li:first-child,
+  .main-features li:nth-child(2),
+  .main-features li:nth-child(3) {
+    margin-right: 30px;
+  }
+  .main-features-icon {
+    background-color: var(--background-team);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 30px;
+    height: 120px;
+  }
+  
+  .features-par {
+    line-height: 1.71;
+    color: var(--light-grey-color);
+  
+    text-align: left;
+  }

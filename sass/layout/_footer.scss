@@ -8,36 +8,34 @@
   align-items: baseline;
   justify-content: space-between;
 }
-.logo .logo_part_footer {
-  display: inline-block;
-  color: var(--white-color);
-}
+
 .address {
   font-style: normal;
   margin-top: 20px;
 }
-.address-li-block {
+.address-block {
   display: block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.address-li-mail,
-.address-li-tel {
+.address-block__item-mail,
+.address-block__item-tel {
   margin-top: 10px;
 }
-.footer-nav-li {
+.address-block__item-link {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 
-.footer-nav-li:hover,
-.footer-nav-li:focus {
-  color: var(--blue-color);
-}
 .our-links {
   margin-left: 70px;
 }
@@ -51,17 +49,6 @@
   font-weight: 700;
 }
 
-.links-list {
-  display: flex;
-  justify-content: start;
-  gap: 10px;
-}
-.social-list-item {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.social-list-icon-footer {
-  fill: var(--white-color);
-}
 .footer-form {
   margin-left: 90px;
 }
